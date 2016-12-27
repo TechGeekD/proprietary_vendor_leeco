@@ -16,6 +16,10 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    libtime_genoff
+    libtime_genoff \
+    libthermalclient \
+    libloc_api_v02 \
+    libimscamera_jni \
+    libimsmedia_jni
 
 $(call inherit-product, vendor/leeco/s2/s2-vendor-blobs.mk)
