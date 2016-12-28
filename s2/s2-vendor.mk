@@ -20,6 +20,17 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libloc_api_v02 \
     libimscamera_jni \
-    libimsmedia_jni
+    libimsmedia_jni \
+    fastdormancy \
+    QtiTelephonyService \
+    TimeService \
+    CNEService \
+    com.qualcomm.location \
+    dpmserviceapp \
+    qcrilmsgtunnel \
+    ims \
+    imssettings \
+    qcnvitems \
+    qcrilhook
 
 $(call inherit-product, vendor/leeco/s2/s2-vendor-blobs.mk)
